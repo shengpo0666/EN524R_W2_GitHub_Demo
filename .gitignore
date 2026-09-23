@@ -1,0 +1,15 @@
+# Large/raw environmental data
+data/raw/*
+!data/raw/.gitkeep
+*.nc
+
+# Secrets
+.env
+
+# Python/system files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
