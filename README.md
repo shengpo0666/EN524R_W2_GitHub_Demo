@@ -39,3 +39,6 @@ Large/raw datasets should not be committed to the repository. Use `data/sample/`
 
 ## AI Assistance
 If AI tools are used, document what they assisted with and how the output was verified.
+
+## W2 Tutorial Test
+This line was added locally to demonstrate the Git commit and push workflow.
