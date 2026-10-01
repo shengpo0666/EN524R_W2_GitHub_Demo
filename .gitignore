@@ -1,6 +1,10 @@
 # Large/raw environmental data
 data/raw/*
-!data/raw/.gitkeep
+
+# Keep small teaching samples
+!data/raw/*_sample.json
+
+# Large model/data files
 *.nc
 
 # Secrets
