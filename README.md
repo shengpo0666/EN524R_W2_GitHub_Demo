@@ -1,3 +1,18 @@
+## W3 Data Source
+
+### MOENV Air Quality Data
+
+- Provider: Ministry of Environment (MOENV)
+- Dataset: AQX_P_432 — Air Quality Index
+- Access method: MOENV Open Data API
+- Access date: 2026-10-01
+- Temporal resolution: Hourly
+- Raw snapshot: `data/raw/moenv_AQX_P_432_2026-10-01_sample.json`
+
+**Known limitation:**  
+The snapshot represents data available at the retrieval time and is not a complete historical dataset.
+
+------------------------------------------------------------------------------------------------------------
 # EN524R / CE801V — Week 2 GitHub Demo
 
 ## Research Question
@@ -39,6 +54,3 @@ Large/raw datasets should not be committed to the repository. Use `data/sample/`
 
 ## AI Assistance
 If AI tools are used, document what they assisted with and how the output was verified.
-
-## W2 Tutorial Test
-This line was added locally to demonstrate the Git commit and push workflow.
