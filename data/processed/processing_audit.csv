@@ -1,0 +1,5 @@
+Step,Rows,Notes
+Raw load,168,Original teaching sample
+Parse time,168,0 unparsed timestamps
+Mask negative PM2.5,168,3 invalid/missing values
+Daily aggregation,7,Require >= 24 valid hours
