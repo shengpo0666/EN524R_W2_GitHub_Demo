@@ -1,0 +1,5 @@
+Rule,Affected,Decision
+Originally missing,1,Keep missing
+PM2.5 < 0,2,Mask QC copy; preserve raw
+PM2.5 == 185 (illustrative flag),1,Retain; investigate
+Duplicate station-time key,0,Inspect; do not auto-drop

@@ -1,0 +1,5 @@
+Step,Rows,Valid_PM25,Notes
+Raw load,168,167,1 originally missing
+Parse datetime,168,167,0 unparseable timestamps
+Screen negative PM2.5,168,165,2 negative values masked to NaN
+Flag 185 for investigation,168,165,1 flagged; retained in default QC data

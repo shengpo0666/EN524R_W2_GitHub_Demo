@@ -155,6 +155,26 @@ processing decisions visible and traceable.
 
 ---
 
+## W5 — Data Cleaning and QA/QC
+
+Notebook: 
+
+`notebooks/04_qaqc.ipynb`
+
+## QA/QC Workflow
+
+1. Inspect missing, negative, duplicate, and extreme values.
+2. Preserve original observations and create a QA/QC variable.
+3. Diagnose suspicious values using neighboring observations.
+4. Compare raw and screened data.
+5. Perform sensitivity analysis.
+6. Document QA/QC decisions and affected records.
+
+## Reproducibility
+
+The QA/QC notebook records the screening rules, affected observations, and sensitivity results. Original data are preserved so that alternative QA/QC decisions can be tested.
+
+Workflow: Detect → Diagnose → Decide → Document → Test
 ## Repository Structure
 
 ```text
@@ -173,3 +193,6 @@ EN524R_W2_GitHub_Demo/
 │   └── 03_processing.ipynb
 ├── figures/
 └── src/
+
+
+

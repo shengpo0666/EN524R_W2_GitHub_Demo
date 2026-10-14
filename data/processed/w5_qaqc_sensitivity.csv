@@ -1,0 +1,4 @@
+Scenario,N_valid,Mean,Median
+Raw (includes invalid codes),167,-34.743113772455104,23.8
+Negative values screened; 185 retained,165,25.447878787878793,23.9
+Hypothetical: also exclude 185,164,24.475000000000005,23.85
