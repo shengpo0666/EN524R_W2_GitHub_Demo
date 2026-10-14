@@ -191,6 +191,7 @@ EN524R_W2_GitHub_Demo/
 │   ├── 01_air_quality_demo.ipynb
 │   ├── 02_data_acquisition.ipynb
 │   └── 03_processing.ipynb
+│   └── 04_qaqc.ipynb
 ├── figures/
 └── src/
 
