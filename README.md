@@ -187,6 +187,12 @@ EN524R_W2_GitHub_Demo/
 │   ├── sample/
 │   │   └── zhongli_aq_2025.csv
 │   └── processed/
+│       └── processing_audit.csv
+│       └── zhongli_daily_pm25.csv
+│       └── zhongli_hourly_processed.csv
+│       └── w5_qaqc_hourly.csv
+│       └── w5_qaqc_rules.csv
+│       └── w5_qaqc_sensitivity.csv
 ├── notebooks/
 │   ├── 01_air_quality_demo.ipynb
 │   ├── 02_data_acquisition.ipynb
