@@ -175,6 +175,40 @@ Notebook:
 The QA/QC notebook records the screening rules, affected observations, and sensitivity results. Original data are preserved so that alternative QA/QC decisions can be tested.
 
 Workflow: Detect → Diagnose → Decide → Document → Test
+
+---
+
+## W6 — Environmental Statistics
+
+**Notebook:** `notebooks/05_statistics.ipynb`
+
+### Research Question
+How is PM2.5 associated with wind speed at Zhongli station?
+
+### Statistical Analysis
+1. Descriptive statistics: mean, median, SD, and IQR.
+2. Bootstrap confidence interval for mean PM2.5.
+3. Temporal autocorrelation and day-block bootstrap comparison.
+4. Pearson and Spearman correlation.
+5. Sensitivity analysis of the 185 µg/m³ observation.
+
+### Main Findings
+- Mean PM2.5: approximately 25.45 µg/m³.
+- Pearson r: approximately -0.087.
+- Spearman rho: approximately -0.099.
+- Overall hourly association is weak in this seven-day sample.
+
+### Limitations
+The dataset covers only seven days. Temporal autocorrelation,
+limited sample representativeness, and possible confounding
+factors restrict broader interpretation.
+
+### Reproducibility
+Run `notebooks/05_statistics.ipynb` to regenerate the
+statistical summaries and figures.
+
+---
+
 ## Repository Structure
 
 ```text
