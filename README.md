@@ -221,18 +221,28 @@ EN524R_W2_GitHub_Demo/
 │   ├── sample/
 │   │   └── zhongli_aq_2025.csv
 │   └── processed/
-│       └── processing_audit.csv
-│       └── zhongli_daily_pm25.csv
-│       └── zhongli_hourly_processed.csv
-│       └── w5_qaqc_hourly.csv
-│       └── w5_qaqc_rules.csv
-│       └── w5_qaqc_sensitivity.csv
+│       ├── processing_audit.csv
+│       ├── zhongli_daily_pm25.csv
+│       ├── zhongli_hourly_processed.csv
+│       ├── w5_qaqc_hourly.csv
+│       ├── w5_qaqc_rules.csv
+│       ├── w5_qaqc_sensitivity.csv
+│       ├── w6_descriptive_statistics.csv
+│       ├── w6_correlations.csv
+│       └── w6_sensitivity.csv
 ├── notebooks/
 │   ├── 01_air_quality_demo.ipynb
 │   ├── 02_data_acquisition.ipynb
-│   └── 03_processing.ipynb
-│   └── 04_qaqc.ipynb
+│   ├── 03_processing.ipynb
+│   ├── 04_qaqc.ipynb
+│   └── 05_statistics.ipynb
 ├── figures/
+│   ├── w5_pm25_missing_by_day.png
+│   ├── w5_pm25_raw_vs_screened.png
+│   ├── w6_pm25_distribution.png
+│   ├── w6_bootstrap_iid.png
+│   ├── w6_pm25_timeseries.png
+│   └── w6_pm25_vs_ws.png
 └── src/
 
 
